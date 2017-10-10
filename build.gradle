@@ -34,5 +34,8 @@ dependencies {
     // tag::actuator[]
     compile("org.springframework.boot:spring-boot-starter-actuator")
     // end::actuator[]
+    // tag::hibernate[]
+    compile("org.hibernate:hibernate-core:5.2.11.Final")
+    // end::hibernate[]
     testCompile("junit:junit")
 }
